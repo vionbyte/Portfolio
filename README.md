@@ -21,7 +21,7 @@
 
 ## 📸 Preview
 
-![Screenshot of Portfolio](codex.jpg)
+![Screenshot of Portfolio](preview.jpg)
 
 ---
 
@@ -59,6 +59,12 @@
 - GitHub: [@ApsXminer](https://github.com/ApsXminer)
 
 ---
+
+## CREDIT
+- Runxking original owner of the Code
+- [Portfolio](https://runxking.netlify.app/)
+- [Discord](https://discord.com/users/767979794411028491)
+
 
 > 💖 *Made with love by APS | Code X – Developer, Designer, and Creator*
 
