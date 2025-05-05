@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code X</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/jpg" href="image/codex.jpg">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        accent: '#34ebd6',
+                        'accent-hover': '#eb3434'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: rgba(156, 163, 175);
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: transparent;
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: inherit;
+            background-size: cover;
+            z-index: 0;
+        }
+    </style>
+</head>
+
+<body
+    class="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-zinc-900 via-black to-black text-white">
+    <div class="flex min-h-screen">
+        <!-- Sidebar -->
+        <div class="w-80 border-r border-zinc-800/50 bg-black/50 backdrop-blur-xl p-8 space-y-8">
+            <!-- Profile -->
+            <div class="text-center space-y-4">
+                <div class="relative w-32 h-32 mx-auto">
+                    <img src="image/codex.jpg"
+                        alt="Profile" class="w-full h-full rounded-full border-2 border-zinc-800/50">
+                    <div
+                        class="absolute bottom-0 right-0 w-8 h-8 bg-zinc-900 rounded-full border-2 border-zinc-800 flex items-center justify-center">
+                          <span class="text-yellow-400">💸</span> 
+                    </div> 
+
+
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold">Code X</h1>
+                    <h2 class="text-xl text-zinc-400">A Guy who just loves coding and Learning more!</h2>
+                </div>
+
+            </div>
+            <div class="space-y-2 border-l-2 border-zinc-700 pl-4">
+                <h2 class="text-lg font-semibold text-zinc-200 mb-2">Profile Information</h2>
+                <div class="flex items-center gap-2">
+                    <span>👑</span>
+                    <span class="text-grey-400 font-medium">Interest:</span>
+                    <span class="text-zinc-200">React.js</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span>📄</span>
+                    <span class="text-grey-400 font-medium">Language:</span>
+                    <span class="text-zinc-200">English</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span>💼</span>
+                    <span class="text-grey-400 font-medium">Project:</span>
+                    <span class="text-zinc-200">Quantum X</span>
+                </div>
+            </div>
+            <!-- Socials -->
+            <div class="space-y-4">
+                <h3 class="text-lg font-semibold">Socials</h3>
+                <div class="grid grid-cols-2 gap-4">
+                    <a href=""
+                        class="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors">
+                        <i class="far fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://discord.gg/Vwk8Sksfuz"
+                        class="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="https://discord.gg/Vwk8Sksfuz"
+                        class="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors">
+                        <i class="fab fa-discord"></i>
+                        <span>Discord</span>
+                    </a>
+                    <a href="https://github.com/ApsXminer"
+                        class="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Main Content -->
+        <main class="flex-1 p-12">
+            <!-- Skills Grid -->
+            <section class="mb-24">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Programming Languages -->
+                    <div
+                        class="group hover:-translate-y-1 bg-black/40 backdrop-blur-sm p-8 rounded-2xl border border-zinc-800/50 transition-all duration-300 shadow-lg hover:shadow-accent/20">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div
+                                class="w-14 h-14 bg-accent/5 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="fas fa-code text-accent text-2xl"></i>
+                            </div>
+                            <div>
+                                <div
+                                    class="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-white to-zinc-400 text-transparent bg-clip-text">
+                                    Languages</div>
+                                <div class="text-zinc-400 text-lg">Programming & Markup</div>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                           
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <img src="assets/download.jpg"
+                                    class="w-4 h-4">Python 
+                            </span>
+                            
+                            
+                           
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <i class="fab fa-html5 text-[#E34F26]"></i>
+                                Html
+                            </span>
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <i class="fab fa-css3-alt text-[#1572B6]"></i>
+                                Css
+                            </span>
+                            
+                          
+                        </div>
+                    </div>
+                    <!-- Frameworks -->
+                    <div
+                        class="group hover:-translate-y-1 bg-black/40 backdrop-blur-sm p-8 rounded-2xl border border-zinc-800/50 transition-all duration-300 shadow-lg hover:shadow-accent/20">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div
+                                class="w-14 h-14 bg-accent/5 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="fas fa-layer-group text-accent text-2xl"></i>
+                            </div>
+                            <div>
+                                <div
+                                    class="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-white to-zinc-400 text-transparent bg-clip-text">
+                                    Frameworks</div>
+                               
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <i class="fab fa-node-js text-[#339933]"></i>
+                                Node.js
+                            </span>
+                           
+                            
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <i class="fab fa-react text-[#61DAFB]"></i>
+                                React
+                            </span>
+                            
+                            
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                                    class="w-4 h-4">Tailwind CSS
+                            </span>
+                            
+                            
+                        </div>
+                    </div>
+                    <!-- Tools -->
+                    <div
+                        class="group hover:-translate-y-1 bg-black/40 backdrop-blur-sm p-8 rounded-2xl border border-zinc-800/50 transition-all duration-300 shadow-lg hover:shadow-accent/20">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div
+                                class="w-14 h-14 bg-accent/5 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="fas fa-tools text-accent text-2xl"></i>
+                            </div>
+                            <div>
+                                <div
+                                    class="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-white to-zinc-400 text-transparent bg-clip-text">
+                                    Software</div>
+                                
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg"
+                                    class="w-4 h-4">VS Code
+                            </span>
+                           
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
+                                    class="w-4 h-4">MongoDB
+                            </span>
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg"
+                                    class="w-4 h-4">SQLite
+                            </span>
+                           
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <i class="fas fa-mouse-pointer text-purple-400"></i>
+                                Cursor
+                            </span>
+                           
+                        </div>
+                    </div>
+                </div>
+                <!-- Others -->
+                <div class="mt-8">
+                    <div
+                        class="group hover:-translate-y-1 bg-black/40 backdrop-blur-sm p-8 rounded-2xl border border-zinc-800/50 transition-all duration-300 shadow-lg hover:shadow-accent/20">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div
+                                class="w-14 h-14 bg-accent/5 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="fas fa-plus text-accent text-2xl"></i>
+                            </div>
+                            <div>
+                                <div
+                                    class="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-white to-zinc-400 text-transparent bg-clip-text">
+                                    Others</div>
+                                <div class="text-zinc-400 text-lg">Additional Skills</div>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                           
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <i class="fas fa-camera"></i>
+                                Photopea
+                            </span>
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <i class="fas fa-file-powerpoint"></i>
+                                PPT
+                            </span>
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-zinc-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <i class="fas fa-database"></i>
+                                SVG 
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Currently Learning -->
+                <div class="mt-8">
+                    <div
+                        class="group hover:-translate-y-1 bg-black/40 backdrop-blur-sm p-8 rounded-2xl border border-zinc-800/50 transition-all duration-300 shadow-lg hover:shadow-accent/20">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div
+                                class="w-14 h-14 bg-accent/5 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                                <i class="fas fa-graduation-cap text-accent text-2xl"></i>
+                            </div>
+                            <div>
+                                <div
+                                    class="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-white to-zinc-400 text-transparent bg-clip-text">
+                                    Learning</div>
+                                <div class="text-zinc-400 text-lg">Currently Learning</div>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="px-4 py-2 bg-black/60 rounded-xl text-zinc-300 border border-black-800/50 hover:border-accent/50 transition-colors flex items-center gap-2">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Modern_AutoHotkey_Logo_%28full%29.svg"
+                                    class="w-4 h-4">Autohotkey
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- GitHub Contributions -->
+
+            <!-- Projects -->
+            <section>
+                <h2
+                    class="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-white to-zinc-400 text-transparent bg-clip-text mb-12">
+                    Latest Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Project Card -->
+                    <div
+                        class="group hover:-translate-y-1 bg-zinc-900/30 backdrop-blur-sm hover:bg-zinc-800/30 p-8 rounded-2xl border border-zinc-800/50 transition-all duration-300">
+                        <h3 class="text-2xl font-bold mb-2">Code X Security</h3>
+                        <p class="text-zinc-400 mb-4">An Emece Multipurpose Bot Built in Python Powerful Security and
+                            Good features! Everything a server needs! I have Worked
+                            on this bot for 4 months! with UI Customization and many more</p>
+                        <div class="flex gap-4">
+                            <a href="https://discord.com/oauth2/authorize?client_id=1362680985497636885&permissions=8&integration_type=0&scope=bot+applications.commands"
+                                class="text-accent hover:text-accent-hover transition-colors flex items-center gap-2">
+                                <i class="fas fa-code"></i>
+                                View Project
+                                <img src="https://media.discordapp.net/attachments/1361591488374378546/1361604368096428112/ChatGPT_Image_Apr_14_2025_11_03_37_PM.png?ex=6819ba62&is=681868e2&hm=9e5e15bd8497e10c86528d19bad2af41dc116fc87c5036ba18cf18e3ad9bab03&=&format=webp&quality=lossless&width=862&height=862" alt="Wave Project" height="1000" width="50">
+
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Project Card -->
+                    <div
+                        class="group hover:-translate-y-1 bg-zinc-900/30 backdrop-blur-sm hover:bg-zinc-800/30 p-8 rounded-2xl border border-zinc-800/50 transition-all duration-300">
+                        <h3 class="text-2xl font-bold mb-2">SubSheild</h3>
+                        <p class="text-zinc-400 mb-4">A Discord Bot That Verify Scrrenshot of Subscriber and give them role also some basic moderation commands</p>
+                        <div class="flex gap-4">
+                            <a href="https://discord.com/oauth2/authorize?client_id=1366897259933077574&permissions=8&scope=bot+applications.commands"
+                                class="text-accent hover:text-accent-hover transition-colors flex items-center gap-2">
+                                <i class="fas fa-code"></i>
+                                View Project
+                                <img src="https://images-ext-1.discordapp.net/external/CIIDWaZIf-hkOi9Vqout-hnnl3Dj7cDFZc07nAuNOtc/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/1366897259933077574/bc541c52843734e45459d293bb792c83.webp?format=webp&width=862&height=862" alt="Wave Project" height="1000" width="50">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
