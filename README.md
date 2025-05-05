@@ -15,6 +15,7 @@
   <a href="https://github.com/ApsXminer" target="_blank">
     <img alt="GitHub" src="https://img.shields.io/badge/@ApsXminer-Follow--me-181717?style=for-the-badge&logo=github" />
   </a>
+  <a href="https://discord.gg/3xzPkYHd9U" target="_blank"><img src="https://img.shields.io/discord/1361584465645928549?label=Join%20CodeX%20Community&logo=discord&style=for-the-badge"></a>
 </p>
 
 ---
