@@ -1,4 +1,4 @@
-<h1 align="center">🚀 APSX Portfolio</h1>
+<h1 align="center">🚀 Code X Portfolio</h1>
 
 <p align="center">
   <img src="codex.jpg" width="120" alt="Logo"/>
@@ -38,7 +38,9 @@
 
 ```
 
-├── index.html       # Main portfolio page
+├── index.html     # Main portfolio page
+├── style.css      # style file
+├── script.js       # script
 ├── codex.jpg        # Image/logo used on the site
 └── README.md        # This file
 
