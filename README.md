@@ -22,7 +22,7 @@
 
 ## 📸 Preview
 
-![Screenshot of Portfolio](preview.jpg)
+![Screenshot of Portfolio](preview.png)
 
 ---
 
