@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://apsxminer.github.io/Portfolio/" target="_blank">
+  <a href="https://vionbyte.github.io/Portfolio/" target="_blank">
     <img alt="Website" src="https://img.shields.io/badge/Visit%20Portfolio-Online-success?style=for-the-badge&logo=githubpages&logoColor=white" />
   </a>
   <a href="https://github.com/vionbyte" target="_blank">
@@ -51,7 +51,7 @@
 
 ## 🌍 Live Site
 
-🔗 **[View the Portfolio Website](https://apsxminer.github.io/Portfolio/)**
+🔗 **[View the Portfolio Website](https://vionbyte.github.io/Portfolio/)**
 
 ---
 
@@ -59,14 +59,14 @@
 
 - Discord: **Code X / APS**
 - Portfolio Hub: [team.danink.cloud/aps](https://team.danink.cloud/aps)
-- GitHub: [@ApsXminer](https://github.com/ApsXminer)
+- GitHub: [@ApsXminer](https://github.com/vionbyte)
 
 ---
 
 ## CREDIT
 - Runxking original owner of the Code
-- [Portfolio](https://runxking.netlify.app/)
-- [Discord](https://discord.com/users/767979794411028491)
+- [Portfolio](https://rung.netlify.app/)
+- [Discord](https://discord.com/users/28491)
 
 
 > 💖 *Made with love by vion | X – Developer, Designer, and Creator*
