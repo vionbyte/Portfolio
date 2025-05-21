@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Code X Portfolio</h1>
+<h1 align="center">🚀 Vion X Portfolio</h1>
 
 <p align="center">
   <img src="codex.jpg" width="120" alt="Logo"/>
@@ -12,7 +12,7 @@
   <a href="https://apsxminer.github.io/Portfolio/" target="_blank">
     <img alt="Website" src="https://img.shields.io/badge/Visit%20Portfolio-Online-success?style=for-the-badge&logo=githubpages&logoColor=white" />
   </a>
-  <a href="https://github.com/ApsXminer" target="_blank">
+  <a href="https://github.com/vionbyte" target="_blank">
     <img alt="GitHub" src="https://img.shields.io/badge/@ApsXminer-Follow--me-181717?style=for-the-badge&logo=github" />
   </a>
   <a href="https://discord.gg/3xzPkYHd9U" target="_blank"><img src="https://img.shields.io/discord/1361584465645928549?label=Join%20CodeX%20Community&logo=discord&style=for-the-badge"></a>
@@ -69,5 +69,5 @@
 - [Discord](https://discord.com/users/767979794411028491)
 
 
-> 💖 *Made with love by APS | Code X – Developer, Designer, and Creator*
+> 💖 *Made with love by vion | X – Developer, Designer, and Creator*
 
